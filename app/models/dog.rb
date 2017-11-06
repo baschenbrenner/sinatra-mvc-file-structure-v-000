@@ -10,5 +10,8 @@ class Dog < ApplicationController
     @@dogs << self
   end
 
+  def all
+    @@dogs
+  end
 
 end
