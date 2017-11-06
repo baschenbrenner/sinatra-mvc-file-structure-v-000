@@ -10,7 +10,7 @@ class Dog < ApplicationController
     @@dogs << self
   end
 
-  def all
+  def self.all
     @@dogs
   end
 
